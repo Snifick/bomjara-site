@@ -3,22 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Бомжары — Официальный сайт</title>
+    <title>БОМЖАРА — Официальный сайт</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
-        header { background-color: #2a9d8f; color: white; padding: 20px; text-align: center; }
-        .container { padding: 20px; text-align: center; }
-        .button { background-color: #e76f51; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 20px; display: inline-block; }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+            text-align: center;
+            overflow-y: auto;
+        }
+        header {
+            background: url('https://raw.githubusercontent.com/Snifick/bomjara-site/2328e1c29f00d2c97f931094b980d1e390c39b99/back') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Adjusted to move content up */
+            align-items: center;
+            padding-top: 50px; /* Added padding to top */
+        }
+        header h1 {
+            font-size: 4rem;
+            margin-bottom: 10px; /* Reduced margin */
+        }
+        header p {
+            font-size: 1.5rem;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        .download-button {
+            background-color: #e76f51;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            transition: background-color 0.3s;
+        }
+        .download-button:hover {
+            background-color: #d65a44;
+        }
+        .description {
+            padding: 20px;
+            background-color: #222; /* Darkened background for description */
+            color: #fff;
+            font-size: 1.2rem;
+            margin: 20px; /* Added margin for spacing */
+        }
+        .logo {
+            margin: 20px 0;
+            width: 200px; /* Adjust the width as needed */
+            border-radius: 10px; /* Rounded corners */
+        }
+        .additional-info {
+            padding: 20px;
+            background-color: rgba(34, 34, 34, 0.9); /* Semi-transparent background */
+            color: #fff;
+            font-size: 1.2rem;
+            margin: 20px;
+            border-radius: 10px; /* Rounded corners */
+        }
+        .footer {
+            background: url('https://raw.githubusercontent.com/Snifick/bomjara-site/main/back2.jpg') no-repeat center center;
+            background-size: cover;
+            padding: 40px;
+            color: black; /* Changed text color to black */
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Бомжары — Стань королем улиц</h1>
+        <img src="https://raw.githubusercontent.com/Snifick/bomjara-site/main/icon.png" alt="Логотип Бомжа́ра" class="logo">
+        <h1>БОМЖАРА</h1>
+        <p>От бездомного до миллионера: совершите невероятное путешествие</p>
+        <a href="https://play.google.com/store/apps/details?id=com.flowtrustgame.bomjik" class="download-button">Скачать на Google Play</a>
     </header>
-    <div class="container">
-        <h2>Официальный сайт игры</h2>
-        <p>Испытай себя в выживании на улицах. Скачай сейчас!</p>
-        <a href="https://play.google.com/store/apps/details?id=com.bomzhary" class="button">Скачать на Google Play</a>
+    <div class="description">
+        <h2>О ИГРЕ</h2>
+        <p>Бомжара - игра про приключение Павла, который собрался полностью изменить свою жизнь. В игре тебе предстоит собирать бутылки, сдавать люки, работать на ферме, развлекаться, продвигаться по карьерной лестнице.</p>
+        <p>Открой свой бизнес, выпусти свой бренд, стань всемирно известной личностью - покори все берега!</p>
+        <p>Узнай, что ждет тебя в конце твоего пути!</p>
+    </div>
+    <div class="additional-info">
+        <h2>НАСКОЛЬКО ДЛИННЫЙ ПУТЬ?</h2>
+        <p>В игре 7 локаций: Улица, Старая дача, Однушка, Хорошая квартира, Роскошные апартаменты, Пентхаус и Вилла!</p>
+        <p>На каждой локации своя атмосфера, в которую вы можете окунуться с головой!</p>
+        <p>Прохождение игры займет примерно 1 час.</p>
+        <p>В игре МИНИМУМ рекламы! Навязчивая реклама отсутствует полностью!</p>
+    </div>
+    <div class="footer">
+        <p>Спасибо, что играете в Бомжа́ра!</p>
     </div>
 </body>
 </html>
